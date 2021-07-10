@@ -8,7 +8,7 @@ signIn = {'username': os.environ["USERNAME"], #学号
           'password': os.environ["PASSWORD"]} #登陆密码
 
 headers = {
-    'User-Agent': 'Mozilla/5.0 (Linux; Android 10; M2002J9E) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.120 Mobile Safari/537.36',
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.64',
 }
 
 conn = requests.Session()
